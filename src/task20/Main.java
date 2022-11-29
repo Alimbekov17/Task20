@@ -26,7 +26,7 @@ public class Main {
             System.out.println("Volume            : " + parallelepiped.volume());
 
         } catch (InputMismatchException e) {
-            System.out.println("Exception caught: " + e + ": Parallelepiped sides can not be letters!");
+            System.out.println("Exception caught: " + e + ": Parallelepiped sides must be number!");
         } catch (InvalidInputException e) {
             System.out.println("Exception caught: " + e);
         }
